@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultPage">
+
+    <TextView
+        android:id="@+id/scoretextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Your score: 2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_32sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/totalquestiontextview"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/scoretextview"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Total question: 2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_32sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/correctanswertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="correct question: 2"
+        android:textSize="@dimen/_32sdp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalquestiontextview"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/wrongquestiontextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="wrong question: 2"
+        android:textSize="@dimen/_32sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctanswertextview"
+        >
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
